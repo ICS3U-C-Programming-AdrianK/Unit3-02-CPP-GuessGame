@@ -14,16 +14,16 @@ int main() {
     int userNumber;
 
     // get user number
-    std::cout << "Enter the user number:";
+    std::cout << "Enter the user number between 0 and 9:";
     std::cin >> userNumber;
     std::cout <<"" <<std::endl;
 
     // check if user number is the right number
     if (userNumber == CR) {
-        std::cout <<"you are right";
+        std::cout <<"you are right!!";
     }
     if (userNumber != CR) {
-        std::cout << "you are wrong" << std::endl;
+        std::cout << "you are wrong!!" << std::endl;
     }
 
     // display the correct answer
